@@ -1,0 +1,82 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: JPD wordpress them
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* font pull in start */
+@font-face{
+font-family: MinionPro-Regular;
+src: url('font/MinionPro-Regular.otf');
+}
+/* font pull in end */
+
+/* header start*/
+header{
+	padding: 25px 0;
+	border-bottom: 1px solid #848484;
+}
+header .logo{
+	float: left;
+	height: 54px;
+	padding-left: 62px;
+	padding-top: 36px;
+	background: url(imgs/logo.png) no-repeat left center;
+}
+header .language{
+	float: right;
+	padding-top: 36px;
+}
+/* header end*/
+
+/* navigation start */
+nav ul{
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+nav ul li{
+	float: left;
+	padding: 10px 15px;
+}
+nav ul li:last-of-type{
+	padding-right: 0;
+}
+nav ul li a{
+	text-transform: uppercase;
+}
+/* navigation end */
+
+/* footer start */
+footer{
+	padding: 50px 0;
+	border-top: 1px solid #848484;
+}
+footer .copy{
+	text-align: center;
+	text-transform: uppercase;
+}
+/* footer end */
+
+/* main section start */
+section{
+	padding: 100px 0;
+}
+/* main section end*/
+
+/* contact us start */
+.contact h2{
+	margin: 30px 0;
+}
+address{
+	float: left;
+	width: 460px;
+}
+.form{
+	float: left;
+	width: 460px;
+}
+/* contact us end */
